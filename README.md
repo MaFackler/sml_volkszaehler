@@ -4,20 +4,16 @@ Package to read SML Data from tty device.
 
 ## Installation
 
-### Building the package
+### Building and Installation
 
 ```bash
 # The build package has to be installed
 # pip install build
 python -m build
-```
-
-### Installation
-```bash
 pip install dist/<filename>.whl
 ```
 
-### Development installation
+### Development Installation
 
 ```bash
 # Create virtual env
@@ -30,7 +26,7 @@ source .myenv/bin/activate
 pip install -e .
 ```
 
-### Run tests
+### Run Tests
 
 ```bash
 pytest -v
