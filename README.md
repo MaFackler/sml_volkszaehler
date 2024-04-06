@@ -26,10 +26,6 @@ python -m venv .myenv
 # Activate virtual env
 source .myenv/bin/activate
 
-# clone this repo
-git clone <url>
-cd <repo-folder>
-
 # install the current repo
 pip install -e .
 ```
