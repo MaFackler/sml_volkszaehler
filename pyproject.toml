@@ -3,5 +3,6 @@ name = "sml_volkszaehler"
 version = "0.1"
 license = {file="LICENSE.txt"}
 dependencies = [
-    "pyserial"
+    "pyserial",
+    "paho-mqtt",
 ]
